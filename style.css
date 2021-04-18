@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+p{
+    margin-left: 40px;
+    font-size: 24px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid white;
+}
+.header__body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+}
+.header__navigation{
+    display: inline-block;
+}
+.header__navigation a{
+    margin: 0 10px;
+}
+.block__main{
+    width: 100%;
+    height: 900px;
+    padding-top: 200px;
+    background-image: url("img/genshin-impact-li-iue-vanshu-noch-gory-nebo.jpg");
+}
+.information{
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: -20px 20px 0 -9px rgba(0, 0, 0, 0.4),
+                 20px -20px 0 -9px rgba(0, 0, 0, 0.4) ,
+                 20px 20px 0 -20px rgba(128,0,128, 0.4),
+                 0 0 0 10px rgba(128,0,128, 0.7);
+}
+.prof_pic {
+    margin: 20px 30px 20px 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.workshop__navigation{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    font-size: 40px;
+}
+ol{
+    padding: 5px 0 20px 40px;
+    font-size: 17px;
+}
+ul{
+    padding-left: 40px;
+    list-style-type:square;
+} 
+.workshop{
+    width: 100%;
+    height: 900px;
+    padding-top: 200px;
+    background: url("img/ff0770833a0026f1b62813408cf5bfb6.jpg");
+}
+.workshop__portfolio{
+    margin: 10px auto;
+    width: 80%;
+    height: 70%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.workshop__portfolio a{
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    width: 80px;
+    height: 40px;
+    margin: 0 10px;
+    border: 3px solid orange;
+    border-radius: 10%;
+    background: silver;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background: #445162;
+}
+.footer__body{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    color: white;
+}
+.footer__contacts{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px; 
+}
+.telephone,.gmail,.telegram{
+    border-radius: 50%;
+    border:1px solid black;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+p,.workshop__navigation,ol{
+    color: white;
+}
+.header__navigation a,.workshop__portfolio a{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    text-decoration: none;
+}
+.block__main,.workshop{
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.header__navigation a:hover{
+    color: orange;
+    font-weight: bold;
+}
