@@ -87,37 +87,24 @@ ul{
     padding-top: 200px;
     background: url("img/54a6ec4583759.jpg");
 }
-.wrap {
- height: 0vh;
-  width: 65vw;
- display: flex;
- align-items: center;
- justify-content: center;   
-}
-.block {
-    width: 50%;
-}
-.workshop__portfolio
-{
-    width: 65vw;
-    height: 56vh;
-    overflow: hidden;
-    border-radius: 10px;
-    display: flex;
+.block_wrapper {
+    overflow       : hidden;
+    display        : flex;
     justify-content: center;
-    align-items: center;
-
+    align-items    : center;
+    height         : 400px;
+    width          : 400px;
 }
 
-.workshop__portfolio
-{
-    filter: brightness(60%);
-  position: absolute;
-  background-size: cover;
+.block {
+
+    transition: 0.7s;
+    height    : 350px;
+    width     : 350px;
 }
-.workshop__portfolio:hover img {
-    transition: 0.5s;
-  transform: scale(1.05);
+
+.block_wrapper:hover .block {
+    transform: scale(1.05);
 }
 .workshop__portfolio a
 {
