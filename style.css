@@ -88,9 +88,25 @@ ul{
 }
 .workshop__portfolio
 {
+    z-index: 1;
+  position: relative;
+  max-width: 85vw;
+  height: 57vh;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.workshop__portfolio
+{
     filter: brightness(60%);
   position: absolute;
   background-size: cover;
+}
+.workshop__portfolio:hover img {
+  transform: scale(1.05);
   transition: 0.5s;
 }
 .workshop__portfolio a
