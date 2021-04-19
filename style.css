@@ -63,7 +63,7 @@ p
 .workshop__navigation
 {
     display: flex ;
-    position: relative;
+    position: absolute;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -82,25 +82,35 @@ ul{
 } 
 .workshop
 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
     width: 100%;
     height: 900px;
     padding-top: 200px;
     background: url("img/54a6ec4583759.jpg");
 }
 .block_wrapper {
+    position: relative;
     overflow       : hidden;
     display        : flex;
     justify-content: center;
     align-items    : center;
-    height         : 400px;
-    width          : 400px;
+    height         : 60vh;
+    width          : 70vw;
+    flex-direction: column;
 }
 
 .block {
 
-    transition: 0.7s;
-    height    : 350px;
-    width     : 350px;
+    transition: 0.5s;
+    height    : 100%;
+    width     : 100%;
+    background-image: url(img/maska_totem_dym_192795_3840x2400.jpg);
+    background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .block_wrapper:hover .block {
