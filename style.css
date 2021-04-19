@@ -87,30 +87,35 @@ ul{
     background: url("img/54a6ec4583759.jpg");
 }
 .wrap {
- height: 100vh;
- display: flex;
- align-items: center;
- justify-content: center;   
-}
-.block {
-    width: 50%;
-}
-.workshop__portfolio
-{
-    width: 45vw;
-    height: 56vh;
-
-}
-
-.workshop__portfolio
-{
-    filter: brightness(60%);
-  position: absolute;
-  background-size: cover;
-}
-.workshop__portfolio:hover img {
-  transform: scale(1.05);
-  transition: 0.5s;
+    height: 0vh;
+     width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+   }
+   .block {
+       width: 50%;
+   }
+   .workshop__portfolio
+   {
+       width: 65vw;
+       height: 56vh;
+       overflow: hidden;
+       border-radius: 10px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .workshop__portfolio
+   {
+       filter: brightness(60%);
+     position: absolute;
+     background-size: cover;
+   }
+   .workshop__portfolio:hover img {
+     transform: scale(1.05);
+     transition: 0.5s;
 }
 .workshop__portfolio a
 {
