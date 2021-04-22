@@ -1,0 +1,31 @@
+.selection4 li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    list-style-type: none;
+    padding: 10px;
+    color: #fff;
+}
+
+.selection4 .first::before {
+    content: "\2660";
+    margin: 6px;
+    color: #000;
+}
+
+.selection4 .second::before {
+    content: "\2663";
+    margin: 6px;
+    color: #000;
+}
+
+.selection4 .third::before {
+    content: "\2666";
+    color: red;
+    margin: 6px;
+}
+
+.selection4 .four::before {
+    content: "\2665";
+    color: red;
+    margin: 6px;
+}

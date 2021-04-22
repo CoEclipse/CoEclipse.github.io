@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+}
+
+h1,
+h2,
+h3 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.selection1,
+.selection2,
+.selection3,
+.selection4,
+.selection5,
+.selection6,
+.selection7,
+.selection8,
+.selection9 {
+    padding: 2vh 2vw 2vh 2vw;
+    /* height: 100vh; */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.title {
+    z-index: 1;
+    position: relative;
+    min-width: 96vw;
+    min-height: 96vh;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1px);
+}
+
+.content {
+    line-height: 50px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.content:hover {
+    transform: scale(1.1);
+}
+
+.selection1 {
+    background-image: url(/img/yancy-min-842ofHC6MaI-unsplash\ \(Large\).jpg);
+}
+
+.selection2 {
+    background-image: url(/img/andre-benz-e4xOmzd8vzg-unsplash.jpg);
+}
+
+.selection3 {
+    background-image: url(/img/de-andre-bush-WatRwqzvNlE-unsplash.jpg);
+}
+
+.selection4 {
+    background-image: url(/img/dimitry-zub-4A-b-JfusW0-unsplash.jpg);
+}
+
+.selection5 {
+    background-image: url(/img/hanandito-adi-kieIGjdPTno-unsplash.jpg);
+}
+
+.selection6 {
+    background-image: url(/img/kristaps-ungurs-zdicMFryAAg-unsplash.jpg);
+}
+
+.selection7 {
+    background-image: url(/img/mark-chan-7eiNpAP3rTo-unsplash.jpg);
+}
+
+.selection8 {
+    background-image: url(/img/tim-durgan-pQSb6WNSY8M-unsplash.jpg);
+}
+
+.selection9 {
+    background-image: url(/img/traf-FJ7yKxzhzms-unsplash.jpg);
+}
