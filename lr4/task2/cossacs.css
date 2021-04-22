@@ -1,0 +1,48 @@
+.selection3 .wrap {
+    width: 400px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.selection3 h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.selection3 img {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #454545;
+}
+
+.selection3 p {
+    font-size: 13px;
+    line-height: 150%;
+    margin: 5px 0;
+    padding: 5px;
+    color: #fff;
+}
+
+.selection3 .info {
+    border-bottom: 1px solid #c0c0c0;
+    padding: 10px;
+    text-align: center;
+}
+
+.selection3 .side {
+    font-weight: bold;
+    width: 180px;
+    display: inline-block;
+}
+
+.selection3 p:nth-child(even) {
+    border-radius: 8px;
+    color: #000;
+    background-color: lightgrey;
+}
