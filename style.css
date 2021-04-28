@@ -62,7 +62,7 @@ html {
 }
 
 .wrap2 {
-    position: relative;
+    position: relativ;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -193,7 +193,7 @@ html {
 }
 
 .title .content:hover {
-    transform: scale(1.1);
+    /*transform: scale(1.1);*/
 }
 
 .header {
